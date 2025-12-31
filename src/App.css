@@ -1,0 +1,122 @@
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: #0f0126;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: fixed;
+   color: #68d4de;
+}
+.bg-container{
+  width: 100vw;
+  background-color: #0f0126;
+ 
+}
+*{
+  box-sizing: border-box;
+}
+nav{
+  display: flex;
+  width: 20vw;
+}
+ul{
+  display: flex;
+   justify-content: space-around;
+  width: 100%;
+  list-style: none;
+}
+.self-intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 50px;
+  height: 80vh;
+  background-image: linear-gradient(to right, #0f0126, rgb(16, 5, 55), #0f0f0f);
+}
+.role-para{
+  font-size: 20px;
+}
+h1{
+  font-size: 42px;
+  color: aqua;
+}
+a{
+  color: #ffff;
+}
+main{
+  width: 100%;
+  box-sizing: border-box;
+}
+.section{
+  border: 2px solid aqua;
+  border-radius: 5px;
+  padding: 30px;
+  
+}
+.container{
+  padding: 30px;
+  min-height: 40vh;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.view-btn{
+  background-color: aqua;
+  color: #0f0126;
+  height: 40px;
+  width: 150px;
+  color: #0f0126;
+  font-size: 17px;
+}
+footer{
+  width: 100%;
+  box-sizing: border-box;
+}
+.skill{
+  border: 1px solid aqua;
+  border-radius: 25px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  margin: 10px;
+}
+.projects-div{
+  width: 70vw;
+}
+.projects{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.project{
+  border: 1px solid aqua;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
+.contact-div{
+  border: 1px solid aqua;
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(to right, #0f0126, rgb(16, 5, 55), #0f0f0f);
+}
+footer{
+  text-align: center;
+  padding: 30px;
+}
+.info{
+  color: aqua;
+}
+hr{
+  height: 0.4px;
+  color: #bfbfbf;
+}
