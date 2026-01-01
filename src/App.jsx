@@ -12,17 +12,17 @@ function App() {
         <h2>Bhanu Prakash</h2>
         <nav>
         <ul>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Skills">Skills</a></li>
-          <li><a href="#Projects">Projects</a></li>
-          <li><a href="#Contact">Contact</a></li>
+          <li><a href="#About" className="nav-item">About</a></li>
+          <li><a href="#Skills" className="nav-item">Skills</a></li>
+          <li><a href="#Projects" className="nav-item">Projects</a></li>
+          <li><a href="#Contact" className="nav-item">Contact</a></li>
         </ul>
       </nav>
       </header>
       <main>
           <section className="self-intro">
            <div>
-            <h1>Hi, I'am Bhanu Prakash <FaHandsClapping/> </h1>
+            <h1>Hi, I'am Bhanu Prakash <FaHandsClapping className="emoji" /> </h1>
             <p className="role-para">Full Stack Developer | MERN Stack | Passionate about clean code<br/>& modern UI</p>
             
             <a href="https://github.com/Bhanu-techy" target="_blank"><button className="view-btn">View Projects</button></a>
@@ -38,7 +38,7 @@ function App() {
           <section id="Skills" className="container">
               <div>
                 <h2>Skills</h2>
-                <ul  className="section">
+                <ul  className="skills-list">
                   <li className="skill">HTML5</li>
                   <li className="skill">CSS3</li>
                   <li className="skill">JavaScript</li>
@@ -59,18 +59,23 @@ function App() {
               <div className="projects">
                 <div  className="project">
                   <h3>Insta Share</h3>
-                  <p>React app with with user profiles and serach and like interactivity.</p>
-                  <a className="info">View Code</a>
+                  <p>React app with lsit of users post, user profiles and search and like interactivity.</p>
+                  <a className="info" href="https://github.com/Bhanu-techy/InstaShare.git" target="_blank">View Code</a>
                 </div>
                 <div  className="project">
-                  <h3>Insta Share</h3>
-                  <p>React app with with user profiles and serach and like interactivity.</p>
-                  <a className="info">View Code</a>
+                  <h3>Ecomerce Application</h3>
+                  <p>React app displays list of products, product details, cart, filter and search bar.</p>
+                  <a className="info" href="https://github.com/Bhanu-techy/E-Commerce-Web-Application.git" target="_blank">View Code</a>
                 </div>
                 <div  className="project">
-                  <h3>Insta Share</h3>
-                  <p>React app with with user profiles and serach and like interactivity.</p>
-                  <a className="info">View Code</a>
+                  <h3>Auth-Posts-API</h3>
+                  <p>Backend service with user authentication and CRUD operations for user posts.</p>
+                  <a className="info" href="https://github.com/Bhanu-techy/Auth-Posts-API.git" target="_blank">View Code</a>
+                </div>
+                <div  className="project">
+                  <h3>Auth-Posts-API</h3>
+                  <p>Backend service with user authentication and CRUD operations for user posts.</p>
+                  <a className="info" href="https://github.com/Bhanu-techy/Auth-Posts-API.git" target="_blank">View Code</a>
                 </div>
               </div>
             </div>
@@ -80,7 +85,7 @@ function App() {
               <h2>Contact</h2>
               <p>Email: <span className="info">bhanuprakashdevari@gmail.com</span></p>
               <p>GitHub: <a className="info" href="https://github.com/Bhanu-techy" target="_blank">github.com/Bhanu-techy</a></p>
-              <p>Linedin: <a className="info">linkedin.com</a></p>
+              <p>Linedin: <a className="info" href="https://www.linkedin.com/in/bhanu-prakash-8594272b9/" target="_blank">linkedin.com/in/bhanu-prakash</a></p>
             </div>
           </section>
         </main>
