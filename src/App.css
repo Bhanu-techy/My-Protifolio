@@ -115,7 +115,7 @@ footer{
   border-radius: 20px;
   padding: 10px;
   margin: 10px;
-  width: 320px;
+  width: 45%;
 }
 .contact-div{
   border: 1px solid aqua;
@@ -139,18 +139,27 @@ ul{
   padding: 0px;
   margin: 0px;
 }
+.about-me-para{
+  font-family:Arial, Helvetica, sans-serif;
+}
+.project:hover{
+  width: 50%;
+  margin: 0px;
+  padding: 20px;
+  background-color: #022c30;
+}
 
 @media (max-width : 768px) {
   .self-intro{
     height: 60vh;
   }nav{
-  width: 50%;}
+  width: 50%;
+   }
   header{
     width: 100%;
     padding-left: 10px;
     padding-right: 10px;
     justify-content: space-around;
-
   }h1{
     font-size: 35px;
   }.role-para{
@@ -160,17 +169,21 @@ ul{
   }.skills-list{
     padding: 15px;
   }.project{
-    width: 245px;
+    width: 46%;
   }h2{
   font-size: 22px;
-}}
+  }
+}
 
 @media (max-width : 576px) {
   .project{
-    margin: 5px;
+    margin-bottom: 10px;
     width: 185px;
     min-height: 250px;
-  }h2{
+  }.project:hover{
+    width: 100%;
+  }
+  h2{
     font-size: 16px;
   }.self-intro{
   height: 55vh;
@@ -199,7 +212,7 @@ ul{
     font-size: 12px;
   }.project{
     min-height: 180px;
-    width: 320px;
+    width: 100%;
     font-size: 16px;
   }
 }

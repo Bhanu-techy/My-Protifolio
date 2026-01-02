@@ -32,7 +32,7 @@ function App() {
           <section id="About"  className="section container">
                 <div >
                   <h2>About Me</h2>
-                  <p>I'm a dedicated Full Stack Developer with hands-on experience in React, Node.js and SQL. I specialize in building responsive apps with elegant UI and clean code architecture. As a fresher currently Looking for a job and Eager to apply my knowledge in real-world projects and continuously grow as a developer</p>
+                  <p className="about-me-para">I'm a dedicated Full Stack Developer with hands-on experience in React, Node.js and SQL. Specialize in building responsive apps with elegant UI and clean code architecture. As a fresher currently Looking for a job and Eager to apply my knowledge in real-world projects and continuously grow as a developer</p>
                 </div>
           </section>
           <section id="Skills" className="container">
@@ -59,7 +59,7 @@ function App() {
               <div className="projects">
                 <div  className="project">
                   <h3>Insta Share</h3>
-                  <p>React app with lsit of users post, user profiles and search and like interactivity.</p>
+                  <p>React app with list of users post, user profiles and search and like interactivity.</p>
                   <a className="info" href="https://github.com/Bhanu-techy/InstaShare.git" target="_blank">View Code</a>
                 </div>
                 <div  className="project">
@@ -73,9 +73,9 @@ function App() {
                   <a className="info" href="https://github.com/Bhanu-techy/Auth-Posts-API.git" target="_blank">View Code</a>
                 </div>
                 <div  className="project">
-                  <h3>Auth-Posts-API</h3>
-                  <p>Backend service with user authentication and CRUD operations for user posts.</p>
-                  <a className="info" href="https://github.com/Bhanu-techy/Auth-Posts-API.git" target="_blank">View Code</a>
+                  <h3>Jobby-App</h3>
+                  <p>React app with list of jobs, job detail view, filters and search bar.</p>
+                  <a className="info" href="https://github.com/Bhanu-techy/jobby-app.git" target="_blank">View Code</a>
                 </div>
               </div>
             </div>
