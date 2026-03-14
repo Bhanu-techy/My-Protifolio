@@ -68,8 +68,8 @@ function App() {
                   <a className="info" href="https://github.com/Bhanu-techy/E-Commerce-Web-Application.git" target="_blank">View Code</a>
                 </div>
                 <div  className="project">
-                  <h3>Auth-Posts-API</h3>
-                  <p>Backend service with user authentication and CRUD operations for user posts.</p>
+                  <h3>Full Stack Sicial Media App</h3>
+                  <p>This application is to allow users to create, manage, and share posts with images while maintaining secure user authentication.</p>
                   <a className="info" href="https://github.com/Bhanu-techy/Auth-Posts-API.git" target="_blank">View Code</a>
                 </div>
                 <div  className="project">
