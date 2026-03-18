@@ -70,7 +70,7 @@ function App() {
                 <div  className="project">
                   <h3>Full Stack Sicial Media App</h3>
                   <p>This application is to allow users to create, manage, and share posts with images while maintaining secure user authentication.</p>
-                  <a className="info" href="https://github.com/Bhanu-techy/Auth-Posts-API.git" target="_blank">View Code</a>
+                  <a className="info" href="https://github.com/Bhanu-techy/My-Protifolio.git" target="_blank">View Code</a>
                 </div>
                 <div  className="project">
                   <h3>Jobby-App</h3>
